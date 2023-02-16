@@ -40,5 +40,5 @@ dvc pull data/data.xml
 ```
 
 ```cli
-dvc list https://alekseykonoiko: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@github.com/alekseykonoiko/dvc_test data
+dvc list https://alekseykonoiko:<token_key>@github.com/alekseykonoiko/dvc_test data
 ```
