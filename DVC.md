@@ -19,7 +19,6 @@ dvc remote add linode s3://neuralvision/axon_s/
 dvc remote modify linode endpointurl https://eu-central-1.linodeobjects.com
 git status
 git commit -m "Initialize DVC"
-git push
 ```
 Uploading new version of dataset to cloud storage
 ```bash
@@ -42,13 +41,7 @@ dvc pull data/data.xml
 ```cli
 dvc list https://alekseykonoiko:<token_key>@github.com/alekseykonoiko/dvc_test data
 ```
-```bash
-git log --oneline
-git checkout HEAD^1 data/data.xml.dvc
-git checkout <commit_id>
-dvc checkout
 
-```
 ```bash
 dvc get https://alekseykonoiko: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@github.com/alekseykonoiko/dvc_test/data/dataset_v4_1_zones -o data/dataset_v4_1_zone
 ```
@@ -65,5 +58,4 @@ git log --oneline
 git checkout HEAD^1 data/data.xml.dvc
 git checkout <commit_id>
 dvc checkout
-
 ```
