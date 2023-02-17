@@ -42,3 +42,10 @@ dvc pull data/data.xml
 ```cli
 dvc list https://alekseykonoiko:<token_key>@github.com/alekseykonoiko/dvc_test data
 ```
+```bash
+dvc get https://alekseykonoiko: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@github.com/alekseykonoiko/dvc_test/data/dataset_v4_1_zones -o data/dataset_v4_1_zone
+```
+To check folder props
+```bash
+ls -lh data
+```
