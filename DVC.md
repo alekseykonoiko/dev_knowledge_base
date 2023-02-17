@@ -49,3 +49,10 @@ git checkout <commit_id>
 dvc checkout
 
 ```
+```bash
+dvc get https://alekseykonoiko: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@github.com/alekseykonoiko/dvc_test/data/dataset_v4_1_zones -o data/dataset_v4_1_zone
+```
+To check folder props
+```bash
+ls -lh data
+```
