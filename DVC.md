@@ -56,3 +56,14 @@ To check folder props
 ```bash
 ls -lh data
 ```
+```bash
+dvc list https://alekseykonoiko:<token_key>@github.com/alekseykonoiko/dvc_test data
+```
+
+```bash
+git log --oneline
+git checkout HEAD^1 data/data.xml.dvc
+git checkout <commit_id>
+dvc checkout
+
+```
