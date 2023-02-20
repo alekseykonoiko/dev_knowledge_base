@@ -97,8 +97,9 @@ speed_profiler - (speed_profiler/config.ini)
 ImpressArt Try&Buy (tb1)
 server - 10.65.68.160
 camera - http://10.65.68.197:8090/?action=stream
-mac: **f0:2f:74:82:d2:e3**
-pass: **$QT2wZ**
+mac: `f0:2f:74:82:d2:e3`
+pass: `$QT2wZ`
+
 
 
 
